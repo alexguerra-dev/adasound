@@ -6,7 +6,9 @@ import Footer from './ui/footer'
 export default function Home() {
     return (
         <>
-            <Navbar></Navbar>
+            <header>
+                <Navbar></Navbar>
+            </header>
             <main className="flex-grow container mx-auto p-4">
                 <nav className="bg-gray-800 text-5xl">
                     <ul>
